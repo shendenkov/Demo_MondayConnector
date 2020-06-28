@@ -6,13 +6,13 @@ This version gets only Boards and Items from Monday.com.
 Calls:
 - `.../boards` - to receive list of Boards with list of items in each in JSON format.
 
-##Required:
+## Required:
 * Created account at Monday.com (trial or paid)
 * At least one Board with Items
 * Generate personal token for API v1
 * Set personal token to **MONDAY_API_TOKEN** environment variable.
 
-###Note:
+### Note:
 This application call https endpoints of Monday.com. If you use OpenJDK, or some Linux versions with security bugs then you can receive
  errors like this:
 
